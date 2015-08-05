@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "06e175c81f61b72c3f273bde89a2202c",
+    "hash": "271157014b5d195362b4f61ee64c5064",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -363,16 +363,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v5.1.8",
+            "version": "v5.1.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "c4ce8d7a3ac6e655e8b5f0ff3ee07d24fab765ba"
+                "reference": "2f1e0b8d7c24bb783d3a8d4fe4120ef82e5da648"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/c4ce8d7a3ac6e655e8b5f0ff3ee07d24fab765ba",
-                "reference": "c4ce8d7a3ac6e655e8b5f0ff3ee07d24fab765ba",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/2f1e0b8d7c24bb783d3a8d4fe4120ef82e5da648",
+                "reference": "2f1e0b8d7c24bb783d3a8d4fe4120ef82e5da648",
                 "shasum": ""
             },
             "require": {
@@ -487,7 +487,7 @@
                 "framework",
                 "laravel"
             ],
-            "time": "2015-07-21 18:33:13"
+            "time": "2015-08-05 12:51:18"
         },
         {
             "name": "league/flysystem",
@@ -2152,16 +2152,16 @@
         },
         {
             "name": "goez/behat-laravel-extension",
-            "version": "0.0.1",
+            "version": "0.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/jaceju/goez-behat-laravel-extension.git",
-                "reference": "886621af6446130e8fa3579085d9b67b1bad8bc0"
+                "reference": "b81b77c3dac389f3cb276e976e86ab87cb144e4f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jaceju/goez-behat-laravel-extension/zipball/886621af6446130e8fa3579085d9b67b1bad8bc0",
-                "reference": "886621af6446130e8fa3579085d9b67b1bad8bc0",
+                "url": "https://api.github.com/repos/jaceju/goez-behat-laravel-extension/zipball/b81b77c3dac389f3cb276e976e86ab87cb144e4f",
+                "reference": "b81b77c3dac389f3cb276e976e86ab87cb144e4f",
                 "shasum": ""
             },
             "require": {
@@ -2191,7 +2191,7 @@
                 }
             ],
             "description": "Enhance Laracasts Behat Laravel Extension",
-            "time": "2015-08-05 11:56:19"
+            "time": "2015-08-05 16:49:18"
         },
         {
             "name": "hamcrest/hamcrest-php",
