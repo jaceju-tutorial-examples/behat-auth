@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "271157014b5d195362b4f61ee64c5064",
+    "hash": "c614c4160e114d8a3369f6c9a41cc85e",
     "packages": [
         {
             "name": "classpreloader/classpreloader",
@@ -2149,49 +2149,6 @@
                 "fixtures"
             ],
             "time": "2015-05-29 06:29:14"
-        },
-        {
-            "name": "goez/behat-laravel-extension",
-            "version": "0.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jaceju/goez-behat-laravel-extension.git",
-                "reference": "b81b77c3dac389f3cb276e976e86ab87cb144e4f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jaceju/goez-behat-laravel-extension/zipball/b81b77c3dac389f3cb276e976e86ab87cb144e4f",
-                "reference": "b81b77c3dac389f3cb276e976e86ab87cb144e4f",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/contracts": "~5.1",
-                "laracasts/behat-laravel-extension": "~1.0",
-                "mockery/mockery": "^0.9.4",
-                "phpunit/phpunit": "~4.7",
-                "symfony/http-kernel": "~2.6"
-            },
-            "require-dev": {
-                "phpspec/phpspec": "~2.1"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Goez\\BehatLaravelExtension\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Jace Ju",
-                    "email": "jaceju@gmail.com"
-                }
-            ],
-            "description": "Enhance Laracasts Behat Laravel Extension",
-            "time": "2015-08-05 16:49:18"
         },
         {
             "name": "hamcrest/hamcrest-php",
