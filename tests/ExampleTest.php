@@ -15,7 +15,10 @@ class ExampleTest extends TestCase
     public function testSignInWithRandomUser()
     {
         // 在 users 資料表中建立一個使用者並回傳 User model
-        $user = factory(App\User::class)->make();
+        $user = factory(App\User::class)->create();
+        $this->seeInDatabase('users', [
+            'name' => $user->name,
+        ]);
 
         // 假定該使用者已經登入
         $this->be($user);
