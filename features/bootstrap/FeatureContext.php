@@ -1,20 +1,13 @@
 <?php
 
-use Behat\Behat\Context\SnippetAcceptingContext;
-use Behat\MinkExtension\Context\MinkContext;
-use Goez\BehatLaravelExtension\Context\ApplicationTrait;
+use Goez\BehatLaravelExtension\Context\LaravelContext;
 use Illuminate\Support\Facades\Auth;
-use Laracasts\Behat\Context\DatabaseTransactions;
-use Laracasts\Behat\Context\KernelAwareContext;
-use Laracasts\Behat\Context\Migrator;
 
 /**
  * Defines application features from the specific context.
  */
-class FeatureContext extends MinkContext implements KernelAwareContext, SnippetAcceptingContext
+class FeatureContext extends LaravelContext
 {
-    use Migrator, DatabaseTransactions, ApplicationTrait;
-
     private $user;
 
     /**
